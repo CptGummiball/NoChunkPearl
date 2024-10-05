@@ -8,6 +8,7 @@
 - 🔄 **Supports Multiple Platforms**: Compatible with Spigot, PaperMC, Fabric, Forge, and Neoforge.
 - ⚡ **Performance Boost**: Reduces server load by preventing chunks from being unintentionally kept active by Ender Pearls.
 - 🎯 **Simple and Lightweight**: No extra configuration needed, just drop it into your server and let it do its job!
+- 🛡️ **Permission-Based Control** *(Planned Feature)*: Grant specific players permission to use Ender Pearls that still load chunks (for special cases or gameplay needs).
 
 ## Supported Versions
 
