@@ -5,9 +5,7 @@ public void onEnderPearlDrop(EntityDropItemEvent event) {
         Player player = (Player) event.getEntity();
         
         // Berechtigungsprüfung
-        if (!player.hasPermission("enderpearl.chunkload")) {
-            // Hier die Logik einfügen, um Chunk-Laden zu deaktivieren
-
+        if (!player.hasPermission("nochunkpearl.chunkload")) {
             // Zugriff auf die Entity und Modifizierung der Metadaten
             Entity enderPearl = event.getItemDrop();
             // Beispiel: Entfernen der Fähigkeit, den Chunk zu laden
