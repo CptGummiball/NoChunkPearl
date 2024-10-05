@@ -10,7 +10,7 @@ public void onEnderPearlDrop(EntityDropItemEvent event) {
             Entity enderPearl = event.getItemDrop();
             // Beispiel: Entfernen der Fähigkeit, den Chunk zu laden
             // (Dies ist ein hypothetisches Beispiel; der tatsächliche Code kann je nach API variieren)
-            enderPearl.removeMetadata("chunk_loading", pluginInstance); // pluginInstance ist dein Plugin-Objekt
+            enderPearl.removeMetadata("chunk_loading", pluginInstance);
 
             // Optional: Entferne die Enderperle
             event.getItemDrop().remove();
